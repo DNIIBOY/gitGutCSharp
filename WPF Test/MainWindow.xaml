@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="65,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" TextChanged="TextBox_TextChanged" Height="56" FontSize="36"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="275,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" TextChanged="TextBox_TextChanged" Height="56" FontSize="36"/>
+        <TextBox x:Name="output" HorizontalAlignment="Left" Margin="604,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" TextChanged="TextBox_TextChanged" Height="56" FontSize="36" IsEnabled="False"/>
+        <Label x:Name="eqLbl" Content="=" HorizontalAlignment="Left" Margin="475,100,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Button x:Name="addBtn" Content="+" HorizontalAlignment="Left" Margin="65,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="addBtn_Click"/>
+        <Button x:Name="subBtn" Content="-" HorizontalAlignment="Left" Margin="140,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36"/>
+        <Button x:Name="multBtn" Content="*" HorizontalAlignment="Left" Margin="275,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36"/>
+        <Button x:Name="divBtn" Content="/" HorizontalAlignment="Left" Margin="350,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36"/>
+
+    </Grid>
+</Window>
