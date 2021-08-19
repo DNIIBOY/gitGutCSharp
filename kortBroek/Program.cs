@@ -6,7 +6,9 @@ namespace kortBroek
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Indsæt tæller eller brøk: ");
+            string input = Console.ReadLine();
+            string[] broek = input.Split('/');
         }
     }
 }
