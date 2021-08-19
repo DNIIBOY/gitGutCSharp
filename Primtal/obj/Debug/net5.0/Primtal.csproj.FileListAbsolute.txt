@@ -1,0 +1,16 @@
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\bin\Debug\net5.0\Primtal.exe
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\bin\Debug\net5.0\Primtal.deps.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\bin\Debug\net5.0\Primtal.runtimeconfig.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\bin\Debug\net5.0\Primtal.runtimeconfig.dev.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\bin\Debug\net5.0\Primtal.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\bin\Debug\net5.0\ref\Primtal.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\bin\Debug\net5.0\Primtal.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\Primtal.csproj.AssemblyReference.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\Primtal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\Primtal.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\Primtal.AssemblyInfo.cs
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\Primtal.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\Primtal.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\ref\Primtal.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\Primtal.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Primtal\obj\Debug\net5.0\Primtal.genruntimeconfig.cache

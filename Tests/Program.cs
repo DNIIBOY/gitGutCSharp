@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 
 namespace Tests
 {
@@ -6,11 +7,28 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            double x = 7.2;
-            char y = 'G';
-            int z = 101;
-            // 1054 : int, -522 : int, 1.234 : double, k : char/string
-            // -4.3 : int, y : char/string, 19488 : int
+            for (int i = 1; i < 100; i++)
+            {
+                string output = "";
+                if (i % 3 == 0)
+                {
+                    output = "Fizz";
+                }
+
+                if (i % 5 == 0)
+                {
+                    output += "Buzz";
+                }
+
+                if (output != "")
+                {
+                    Console.WriteLine(output);
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+            }
         }
     }
 }

@@ -5,16 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Test"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="65,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" TextChanged="TextBox_TextChanged" Height="56" FontSize="36"/>
-        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="275,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" TextChanged="TextBox_TextChanged" Height="56" FontSize="36"/>
-        <TextBox x:Name="output" HorizontalAlignment="Left" Margin="604,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" TextChanged="TextBox_TextChanged" Height="56" FontSize="36" IsEnabled="False"/>
-        <Label x:Name="eqLbl" Content="=" HorizontalAlignment="Left" Margin="475,100,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Button x:Name="addBtn" Content="+" HorizontalAlignment="Left" Margin="65,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="addBtn_Click"/>
-        <Button x:Name="subBtn" Content="-" HorizontalAlignment="Left" Margin="140,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36"/>
-        <Button x:Name="multBtn" Content="*" HorizontalAlignment="Left" Margin="275,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36"/>
-        <Button x:Name="divBtn" Content="/" HorizontalAlignment="Left" Margin="350,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36"/>
+        Title="Calculator" Height="450" Width="800">
+    <Grid Background="#FF232323">
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="65,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="56" FontSize="36" Background="#FF575757" Foreground="White" SelectionBrush="#FF003157"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="275,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="56" FontSize="36" Background="#FF575757" Foreground="White" SelectionBrush="#FF003157"/>
+        <TextBox x:Name="output" HorizontalAlignment="Left" Margin="604,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="56" FontSize="36" IsEnabled="False"/>
+        <Label x:Name="eqLbl" Content="=" HorizontalAlignment="Left" Margin="475,100,0,0" VerticalAlignment="Top" FontSize="36" Foreground="White"/>
+        <Button x:Name="addBtn" Content="+" HorizontalAlignment="Left" Margin="65,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="addBtn_Click" Background="#FF2D3866" Foreground="White" AutomationProperties.AccessKey="+"/>
+        <Button x:Name="subBtn" Content="-" HorizontalAlignment="Left" Margin="140,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="subBtn_Click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="multBtn" Content="*" HorizontalAlignment="Left" Margin="275,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="multBtn_Click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="divBtn" Content="/" HorizontalAlignment="Left" Margin="350,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="divBtn_Click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="clrBtn" Content="Clear" HorizontalAlignment="Left" Margin="620,161,0,0" VerticalAlignment="Top" Height="56" Width="93" FontSize="24" Click="clrBtn_Click" Background="#FF2D3866" Foreground="White"/>
 
     </Grid>
 </Window>
