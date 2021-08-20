@@ -5,17 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Test"
         mc:Ignorable="d"
-        Title="Calculator" Height="450" Width="800">
+        Title="Calculator" Height="450" Width="402">
     <Grid Background="#FF232323">
-        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="65,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="56" FontSize="36" Background="#FF575757" Foreground="White" SelectionBrush="#FF003157"/>
-        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="275,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="56" FontSize="36" Background="#FF575757" Foreground="White" SelectionBrush="#FF003157"/>
-        <TextBox x:Name="output" HorizontalAlignment="Left" Margin="604,100,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="56" FontSize="36" IsEnabled="False"/>
-        <Label x:Name="eqLbl" Content="=" HorizontalAlignment="Left" Margin="475,100,0,0" VerticalAlignment="Top" FontSize="36" Foreground="White"/>
-        <Button x:Name="addBtn" Content="+" HorizontalAlignment="Left" Margin="65,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="addBtn_Click" Background="#FF2D3866" Foreground="White" AutomationProperties.AccessKey="+"/>
-        <Button x:Name="subBtn" Content="-" HorizontalAlignment="Left" Margin="140,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="subBtn_Click" Background="#FF2D3866" Foreground="White"/>
-        <Button x:Name="multBtn" Content="*" HorizontalAlignment="Left" Margin="275,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="multBtn_Click" Background="#FF2D3866" Foreground="White"/>
-        <Button x:Name="divBtn" Content="/" HorizontalAlignment="Left" Margin="350,161,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="divBtn_Click" Background="#FF2D3866" Foreground="White"/>
-        <Button x:Name="clrBtn" Content="Clear" HorizontalAlignment="Left" Margin="620,161,0,0" VerticalAlignment="Top" Height="56" Width="93" FontSize="24" Click="clrBtn_Click" Background="#FF2D3866" Foreground="White"/>
-
+        <Button x:Name="eqBtn" Content="=" HorizontalAlignment="Left" Margin="216,357,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="eqBtn_Click" Background="#FF2D3866" Foreground="White" AutomationProperties.AccessKey="+"/>
+        <Button x:Name="addBtn" Content="+" HorizontalAlignment="Left" Margin="300,132,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="addBtn_Click" Background="#FF2D3866" Foreground="White" AutomationProperties.AccessKey="+"/>
+        <Button x:Name="subBtn" Content="-" HorizontalAlignment="Left" Margin="300,211,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="subBtn_Click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="multBtn" Content="*" HorizontalAlignment="Left" Margin="300,282,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="multBtn_Click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="divBtn" Content="/" HorizontalAlignment="Left" Margin="300,357,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="divBtn_Click" Background="#FF2D3866" Foreground="White" RenderTransformOrigin="0.607,0.507"/>
+        <Button x:Name="btn0" Content="0" HorizontalAlignment="Left" Margin="75,357,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn0_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="75,282,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn1_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="145,282,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn2_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="216,282,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn3_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="75,206,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn4_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="145,211,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn5_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="216,211,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn6_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="75,132,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn7_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="145,132,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn8_click" Background="#FF2D3866" Foreground="White"/>
+        <Button x:Name="btn9" Content="9" HorizontalAlignment="Left" Margin="216,132,0,0" VerticalAlignment="Top" Height="56" Width="50" FontSize="36" Click="btn9_click" Background="#FF2D3866" Foreground="White"/>
+        <Label x:Name="mainLbl" Content="Label" HorizontalAlignment="Center" Margin="0,36,0,0" VerticalAlignment="Top" Height="91" Width="250" Background="#FF6B6B6B" FontSize="48" Foreground="White"/>
+        <Label x:Name="opLbl" Content="+" HorizontalAlignment="Left" Margin="335,42,0,0" VerticalAlignment="Top" Foreground="White" Height="78" Width="57" FontSize="48"/>
     </Grid>
 </Window>

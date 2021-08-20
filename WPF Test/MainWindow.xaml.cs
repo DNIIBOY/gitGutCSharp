@@ -23,57 +23,115 @@ namespace WPF_Test
             InitializeComponent();
         }
 
-        public void calc(string op)
+        private void btn0_click(object sender, RoutedEventArgs e)
         {
-            double n1 = Convert.ToInt32(input1.Text);
-            double n2 = Convert.ToInt32(input2.Text);
+            mainLbl.Content += "0";
+        }
+
+        private void btn1_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "1";
+        }
+
+        private void btn2_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "2";
+        }
+
+        private void btn3_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "3";
+        }
+
+        private void btn4_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "4";
+        }
+
+        private void btn5_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "5";
+        }
+
+        private void btn6_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "6";
+        }
+
+        private void btn7_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "7";
+        }
+
+        private void btn8_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "8";
+        }
+
+        private void btn9_click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content += "9";
+        }
+
+        public class Equation
+        {
+            public int[] nums = new int[2];
+            public string op;
+
+            public void appendNum(int num)
+            {
+                nums[0] = calc(nums, op);
+                nums[1] = num;
+            }
+        }
+
+        static int calc(int[] nums, string op)
+        {
+            int res;
             switch (op)
             {
                 case "+":
-                    output.Text = Convert.ToString(n1 + n2);
+                    res = nums[0] + nums[1];
                     break;
                 case "-":
-                    output.Text = Convert.ToString(n1 - n2);
+                    res = nums[0] - nums[1];
                     break;
                 case "*":
-                    output.Text = Convert.ToString(n1 * n2);
+                    res = nums[0] * nums[1];
                     break;
                 case "/":
-                    output.Text = Convert.ToString(n1 / n2);
+                    res = nums[0] / nums[1];
+                    break;
+                default:
+                    res = -1;
                     break;
             }
+            return res;
         }
 
         private void addBtn_Click(object sender, RoutedEventArgs e)
         {
-            calc("+");
+
         }
 
         private void subBtn_Click(object sender, RoutedEventArgs e)
         {
-            calc("-");
+
         }
 
         private void multBtn_Click(object sender, RoutedEventArgs e)
         {
-            calc("*");
+
         }
 
         private void divBtn_Click(object sender, RoutedEventArgs e)
         {
-            calc("/");
+
         }
 
-        private void clrBtn_Click(object sender, RoutedEventArgs e)
+        private void eqBtn_Click(object sender, RoutedEventArgs e)
         {
-            clearAll();
-        }
 
-        public void clearAll()
-        {
-            input1.Text = "";
-            input2.Text = "";
-            output.Text = "";
         }
     }
 }
