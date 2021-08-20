@@ -20,3 +20,25 @@ C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF Test\obj\Debug\net5.0-wind
 C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF Test\obj\Debug\net5.0-windows\ref\WPF Test.dll
 C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.pdb
 C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.genruntimeconfig.cache
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\bin\Debug\net5.0-windows\WPF Test.exe
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\bin\Debug\net5.0-windows\WPF Test.deps.json
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\bin\Debug\net5.0-windows\WPF Test.runtimeconfig.json
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\bin\Debug\net5.0-windows\WPF Test.runtimeconfig.dev.json
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\bin\Debug\net5.0-windows\WPF Test.dll
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\bin\Debug\net5.0-windows\ref\WPF Test.dll
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\bin\Debug\net5.0-windows\WPF Test.pdb
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.csproj.AssemblyReference.cache
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test_MarkupCompile.cache
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test_MarkupCompile.lref
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.g.resources
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.AssemblyInfoInputs.cache
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.AssemblyInfo.cs
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.dll
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\ref\WPF Test.dll
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.pdb
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\WPF Test.genruntimeconfig.cache

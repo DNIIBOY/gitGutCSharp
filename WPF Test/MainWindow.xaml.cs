@@ -23,90 +23,106 @@ namespace WPF_Test
             InitializeComponent();
         }
 
-        private void btn0_click(object sender, RoutedEventArgs e)
+        Equation eq = new Equation();
+
+        private void btn0_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "0";
         }
 
-        private void btn1_click(object sender, RoutedEventArgs e)
+        private void btn1_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "1";
         }
 
-        private void btn2_click(object sender, RoutedEventArgs e)
+        private void btn2_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "2";
         }
 
-        private void btn3_click(object sender, RoutedEventArgs e)
+        private void btn3_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "3";
         }
 
-        private void btn4_click(object sender, RoutedEventArgs e)
+        private void btn4_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "4";
         }
 
-        private void btn5_click(object sender, RoutedEventArgs e)
+        private void btn5_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "5";
         }
 
-        private void btn6_click(object sender, RoutedEventArgs e)
+        private void btn6_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "6";
         }
 
-        private void btn7_click(object sender, RoutedEventArgs e)
+        private void btn7_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "7";
         }
 
-        private void btn8_click(object sender, RoutedEventArgs e)
+        private void btn8_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "8";
         }
 
-        private void btn9_click(object sender, RoutedEventArgs e)
+        private void btn9_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                mainLbl.Content = "";
+                eq.nextNumIsNew = false;
+            }
             mainLbl.Content += "9";
-        }
-
-        public class Equation
-        {
-            public int[] nums = new int[2];
-            public string op;
-
-            public void appendNum(int num)
-            {
-                nums[0] = calc(nums, op);
-                nums[1] = num;
-            }
-        }
-
-        static int calc(int[] nums, string op)
-        {
-            int res;
-            switch (op)
-            {
-                case "+":
-                    res = nums[0] + nums[1];
-                    break;
-                case "-":
-                    res = nums[0] - nums[1];
-                    break;
-                case "*":
-                    res = nums[0] * nums[1];
-                    break;
-                case "/":
-                    res = nums[0] / nums[1];
-                    break;
-                default:
-                    res = -1;
-                    break;
-            }
-            return res;
         }
 
         private void addBtn_Click(object sender, RoutedEventArgs e)
@@ -131,7 +147,66 @@ namespace WPF_Test
 
         private void eqBtn_Click(object sender, RoutedEventArgs e)
         {
+            if (eq.nextNumIsNew)
+            {
+                eq.AppendNum(0, "+");
+            }
+        }
 
+        private void clearBtn_Click(object sender, RoutedEventArgs e)
+        {
+            mainLbl.Content = "";
+        }
+
+        public class Equation
+        {
+            public int[] nums = new int[2];
+            public string op;
+
+            public bool nextNumIsNew = true;
+
+            public void AppendNum(int num, string newOp)
+            {
+                nextNumIsNew = true;
+                nums[0] = calc(nums, op);
+                nums[1] = num;
+                op = newOp;
+            }
+        }
+
+        static int calc(int[] nums, string op)
+        {
+            int res;
+            switch (op)
+            {
+                case "+":
+                    res = nums[0] + nums[1];
+                    break;
+                case "-":
+                    res = nums[0] - nums[1];
+                    break;
+                case "*":
+                    res = nums[0] * nums[1];
+                    break;
+                case "/":
+                    if (nums[1] == 0)
+                    {
+                        return 0;
+                    }
+                    res = nums[0] / nums[1];
+                    break;
+                default:
+                    res = -1;
+                    break;
+            }
+            return res;
+        }
+
+        void takeInput(string new_op)
+        {
+            int num = Convert.ToInt32(mainLbl.Content);
+            eq.AppendNum(num, new_op);
+            mainLbl.Content = eq.nums[0];
         }
     }
 }

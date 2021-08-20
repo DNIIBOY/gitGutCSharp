@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Debug\net5.0-windows\
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\obj\Release\net5.0-windows\
 WPF_Test
 none
 false
-TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\WPF Test\App.xaml
 11407045341
 
-5-2071205102
+51372441776
 193-1891726104
 MainWindow.xaml;
 
