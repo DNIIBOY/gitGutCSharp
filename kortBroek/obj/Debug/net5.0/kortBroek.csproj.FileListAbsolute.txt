@@ -1,0 +1,32 @@
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\bin\Debug\net5.0\kortBroek.exe
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\bin\Debug\net5.0\kortBroek.deps.json
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\bin\Debug\net5.0\kortBroek.runtimeconfig.json
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\bin\Debug\net5.0\kortBroek.runtimeconfig.dev.json
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\bin\Debug\net5.0\kortBroek.dll
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\bin\Debug\net5.0\ref\kortBroek.dll
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\bin\Debug\net5.0\kortBroek.pdb
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\kortBroek.csproj.AssemblyReference.cache
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\kortBroek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\kortBroek.AssemblyInfoInputs.cache
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\kortBroek.AssemblyInfo.cs
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\kortBroek.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\kortBroek.dll
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\ref\kortBroek.dll
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\kortBroek.pdb
+C:\Users\Daniel Nettelfield\Desktop\programmering\gitGutCSharp\kortBroek\obj\Debug\net5.0\kortBroek.genruntimeconfig.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\bin\Debug\net5.0\kortBroek.exe
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\bin\Debug\net5.0\kortBroek.deps.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\bin\Debug\net5.0\kortBroek.runtimeconfig.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\bin\Debug\net5.0\kortBroek.runtimeconfig.dev.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\bin\Debug\net5.0\kortBroek.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\bin\Debug\net5.0\ref\kortBroek.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\bin\Debug\net5.0\kortBroek.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\kortBroek.csproj.AssemblyReference.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\kortBroek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\kortBroek.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\kortBroek.AssemblyInfo.cs
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\kortBroek.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\kortBroek.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\ref\kortBroek.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\kortBroek.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\kortBroek\obj\Debug\net5.0\kortBroek.genruntimeconfig.cache
