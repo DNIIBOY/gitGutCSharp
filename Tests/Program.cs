@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq.Expressions;
 
 namespace Tests
 {
@@ -7,28 +6,60 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            int x = 42;
-            int y = 64;
+            Console.Write("Årgang: ");
+            int år = Convert.ToInt32(Console.ReadLine());
 
-            if (x + y > 100)
+            Console.Write("Pris: ");
+            int price = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Udbetaling: ");
+            int ud = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Mærke: ");
+            string mærk = Console.ReadLine();
+
+            Bil car = new Bil(år, price, ud, mærk);
+
+            if (!car.hasMoney())
             {
-                Console.WriteLine("Summen er større end 100!");
+                Console.WriteLine("Du har ikke råd");
+            }
+            else if (!car.isYoung())
+            {
+                Console.WriteLine("Bilen er for gammel");
             }
             else
             {
-                Console.WriteLine("Summen er mindre end 100");
+                Console.WriteLine("Du må gerne købe bilen!");
+            }
+        }
+        
+        class Bil
+        {
+            public int årgang { get; set; }
+            public int pris { get; set; }
+
+            public int udbetaling { get; set; }
+            public string mærke { get; set; }
+
+            public Bil(int år, int price, int ud, string mærk)
+            {
+                årgang = år;
+                pris = price;
+                udbetaling = ud;
+                mærke = mærk;
             }
 
+            public bool isYoung()
+            {
+                return 2021 - årgang <= 10;
+            }
 
-            bool result = x + y > 100;
-            if (result)
+            public bool hasMoney()
             {
-                Console.WriteLine("Summen er større end 100!");
+                return udbetaling >= pris;
             }
-            else
-            {
-                Console.WriteLine("Summen er mindre end 100");
-            }
+
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\bin\Debug\net5.0\ClassFun.exe
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\bin\Debug\net5.0\ClassFun.deps.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\bin\Debug\net5.0\ClassFun.runtimeconfig.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\bin\Debug\net5.0\ClassFun.runtimeconfig.dev.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\bin\Debug\net5.0\ClassFun.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\bin\Debug\net5.0\ref\ClassFun.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\bin\Debug\net5.0\ClassFun.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.AssemblyInfo.cs
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ref\ClassFun.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.genruntimeconfig.cache
