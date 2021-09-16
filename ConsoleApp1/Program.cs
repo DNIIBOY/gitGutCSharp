@@ -6,24 +6,47 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            Hero master = new Hero(25);
-            Hero noob = new Hero(15);
-            master.doDamage(6, noob);
+            Weapon masterSword = new Weapon("Legendary Diamond Sword", 69);
+            Weapon noobToy = new Weapon("Trash Wooden Sword", 1);
+
+            Hero mafiaBoss = new Hero(25, masterSword);
+            Hero noob = new Hero(15, noobToy);
+
+            noob.doDamage(mafiaBoss);
+            mafiaBoss.doDamage(noob);
+
             Console.WriteLine(noob.health);
             Console.WriteLine(noob.heal(true));
+        }
+
+        class Weapon
+        {
+            public string weaponType;
+            public int weaponDamage;
+            public Weapon(string type, int damage)
+            {
+                weaponType = type;
+                weaponDamage = damage;
+            }
         }
         class Hero
         {
             public int maxHealth;
             public int health;
-            public Hero(int hp)
+            public Weapon heroWeapon;
+            public Hero(int hp, Weapon heroWeapon)
             {
                 maxHealth = hp;
                 health = hp;
+                this.heroWeapon = heroWeapon;
             }
-            public void doDamage(int damage, Hero other)
+            public void doDamage(Hero other)
             {
-                other.health -= damage;
+                other.health -= heroWeapon.weaponDamage;
+                if (other.health < 0)
+                {
+                    other.health = 0;
+                }
             }
 
             public int heal(bool largeHealthPack)

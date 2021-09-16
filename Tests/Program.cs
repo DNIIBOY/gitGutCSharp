@@ -4,62 +4,63 @@ namespace Tests
 {
     class Program
     {
-        static void Main(string[] args)
+        class Book
         {
-            Console.Write("Årgang: ");
-            int år = Convert.ToInt32(Console.ReadLine());
+            public string name { get; set; }
+            public int pageCount { get; set; }
 
-            Console.Write("Pris: ");
-            int price = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Udbetaling: ");
-            int ud = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Mærke: ");
-            string mærk = Console.ReadLine();
-
-            Bil car = new Bil(år, price, ud, mærk);
-
-            if (!car.hasMoney())
+            public Book(string name, int pageCount)
             {
-                Console.WriteLine("Du har ikke råd");
+                this.name = name;
+                this.pageCount = pageCount;
             }
-            else if (!car.isYoung())
+
+            public void printInfo()
             {
-                Console.WriteLine("Bilen er for gammel");
-            }
-            else
-            {
-                Console.WriteLine("Du må gerne købe bilen!");
+                Console.WriteLine($"Denne bog hedder \"{name}\" og har {pageCount} sider.");
             }
         }
-        
-        class Bil
+
+        class Person
         {
-            public int årgang { get; set; }
-            public int pris { get; set; }
+            public int age { get; set; }
+            public string name { get; set; }
+            public int money { get; set; }
+            private Book favoriteBook;
 
-            public int udbetaling { get; set; }
-            public string mærke { get; set; }
-
-            public Bil(int år, int price, int ud, string mærk)
+            public Person(int age, string name, int money)
             {
-                årgang = år;
-                pris = price;
-                udbetaling = ud;
-                mærke = mærk;
+                this.age = age;
+                this.name = name;
+                this.money = money;
             }
 
-            public bool isYoung()
+            public void setFavoriteBook(Book favoriteBook)
             {
-                return 2021 - årgang <= 10;
+                this.favoriteBook = favoriteBook;
             }
 
-            public bool hasMoney()
+            public void printInfo()
             {
-                return udbetaling >= pris;
+                Console.WriteLine($"Jeg hedder {name}, jeg er {age} år gammel og jeg har {money} kr.-");
             }
 
+            public void printBookInfo()
+            {
+                if (favoriteBook != null) // Ellers bliver der en fejl, hvis man ikke har sat en favoriteBook
+                {
+                    favoriteBook.printInfo();
+                }
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            Book harryPotter = new Book("Harry Potter og de vises sten", 355);
+            Person p1 = new Person(56, "Joanne Kathleen Rowling", 670000000);
+            p1.setFavoriteBook(harryPotter);
+            p1.printInfo();
+            p1.printBookInfo();
         }
     }
 }

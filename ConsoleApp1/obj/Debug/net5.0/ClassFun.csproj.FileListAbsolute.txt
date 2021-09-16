@@ -13,3 +13,4 @@ C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\C
 C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ref\ClassFun.dll
 C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.pdb
 C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.genruntimeconfig.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\ConsoleApp1\obj\Debug\net5.0\ClassFun.csproj.AssemblyReference.cache
