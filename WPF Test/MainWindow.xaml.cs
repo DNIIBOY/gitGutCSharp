@@ -127,22 +127,54 @@ namespace WPF_Test
 
         private void addBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            if (eq.nextNumIsNew)
+            {
+                eq.op = "+";
+            }
+            else
+            {
+                takeInput("+");
+            }
+            opLbl.Content = "+";
         }
 
         private void subBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            if (eq.nextNumIsNew)
+            {
+                eq.op = "-";
+            }
+            else
+            {
+                takeInput("-");
+            }
+            opLbl.Content = "-";
         }
 
         private void multBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            if (eq.nextNumIsNew)
+            {
+                eq.op = "*";
+            }
+            else
+            {
+                takeInput("*");
+            }
+            opLbl.Content = "*";
         }
 
         private void divBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            if (eq.nextNumIsNew)
+            {
+                eq.op = "/";
+            }
+            else
+            {
+                takeInput("/");
+            }
+            opLbl.Content = "/";
         }
 
         private void eqBtn_Click(object sender, RoutedEventArgs e)
@@ -151,6 +183,10 @@ namespace WPF_Test
             {
                 eq.AppendNum(0, "+");
             }
+            opLbl.Content = "=";
+            mainLbl.Content = eq.equate();
+            eq.nums[0] = 0;
+            eq.nums[1] = 0;
         }
 
         private void clearBtn_Click(object sender, RoutedEventArgs e)
@@ -161,16 +197,25 @@ namespace WPF_Test
         public class Equation
         {
             public int[] nums = new int[2];
-            public string op;
+            public string op = "n";
 
             public bool nextNumIsNew = true;
 
             public void AppendNum(int num, string newOp)
             {
+                if (op != "n")
+                {
+                    nums[0] = calc(nums, op);
+                }
                 nextNumIsNew = true;
-                nums[0] = calc(nums, op);
                 nums[1] = num;
                 op = newOp;
+            }
+            public int equate()
+            {
+                nums[0] = calc(nums, op);
+                nums[1] = 0;
+                return nums[0];
             }
         }
 
