@@ -5,30 +5,48 @@ namespace Tests
 {
     class Program
     {
+        class Furniture
+        {
+            public double cost { set; get; }
+            public string manufacturer { set; get; }
+
+            public void PrintInfo()
+            {
+                Console.WriteLine($"[Furniture] er lavet af {manufacturer} og koster {cost}");
+            }
+        }
+
+        class Chair : Furniture
+        {
+            public int legCount { get; set; } = 4;
+            public void PrintInfo()
+            {
+                Console.WriteLine($"[Chair] er lavet af {manufacturer} og koster {cost}");
+                Console.WriteLine($"Den har {legCount} ben");
+            }
+        }
+        class Computer : Furniture
+        {
+            public string GPU { get; set; }
+            public void PrintInfo()
+            {
+                Console.WriteLine($"[Computer] er lavet af {manufacturer} og koster {cost}");
+                Console.WriteLine($"Grafikkortet er et {GPU}");
+            }
+        }
         static void Main(string[] args)
         {
-            int x = 42;
-            int y = 64;
+            Chair f = new Chair();
+            f.manufacturer = "Samsung";
+            f.cost = 150.45;
+            f.legCount = 3;
+            f.PrintInfo();
 
-            if (x + y > 100)
-            {
-                Console.WriteLine("Summen er større end 100!");
-            }
-            else
-            {
-                Console.WriteLine("Summen er mindre end 100");
-            }
-
-
-            bool result = x + y > 100;
-            if (result)
-            {
-                Console.WriteLine("Summen er større end 100!");
-            }
-            else
-            {
-                Console.WriteLine("Summen er mindre end 100");
-            }
+            Computer c = new Computer();
+            c.manufacturer = "Dell";
+            c.cost = 6900;
+            c.GPU = "RTX 3090";
+            c.PrintInfo();
         }
     }
 }
