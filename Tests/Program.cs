@@ -2,50 +2,95 @@
 
 namespace Tests
 {
+    class Element
+    {
+        public string Name { set; get; }
+        public int Level { set; get; }
+        public int Attack { set; get; }
+    }
+    class Electric : Element
+    {
+        public int ElectricAttack { get; set; }
+    }
+    class Plant : Element
+    {
+        public int PlantAttack { get; set; }
+    }
+    class Fire : Element
+    {
+        public int FireAttack { get; set; }
+    }
+    class Water : Element
+    {
+        public int WaterAttack { get; set; }
+    }
+    class Trainer
+    {
+        public string Name { get; set; }
+        public Pokeball p1 { get; set; } = new Pokeball(1);
+        public Pokeball p2 { get; set; } = new Pokeball(2);
+        public Pokeball p3 { get; set; } = new Pokeball(3);
+        public Pokeball p4 { get; set; } = new Pokeball(4);
+    }
+
+    class Pokeball
+    {
+        public bool isFull { get; set; } = false;
+        public int id { get; set; }
+        private Element pokemon;
+
+        public Element Pokemon
+        {
+            get { return pokemon; }
+            set
+            {
+                if (value != null)
+                {
+                    this.isFull = true;
+                }
+                else
+                {
+                    this.isFull = false;
+                }
+                this.pokemon = value;
+            }
+        }
+
+        public Pokeball(int id)
+        {
+            this.id = id;
+        }
+        public void PrintInfo()
+        {
+            if (isFull)
+            {
+                Console.WriteLine($"This pokeball is full\nThe pokemon inside is:");
+                Console.WriteLine($"Name: {Pokemon.Name}\nAttack: {Pokemon.Attack}");
+                Console.WriteLine($"Level: {Pokemon.Level}");
+                Console.WriteLine(Pokemon.GetType());
+            }
+            else
+            {
+                Console.WriteLine("Nothing is in this pokeball");
+            }
+        }
+    }
     class Program
     {
-        class Furniture
-        {
-            public double Cost { set; get; }
-            public string Manufacturer { set; get; }
-
-            public virtual void PrintInfo()
-            {
-                Console.WriteLine($"[Furniture] er lavet af {Manufacturer} og koster {Cost}");
-            }
-        }
-
-        class Chair : Furniture
-        {
-            public int LegCount { get; set; } = 4;
-            public override void PrintInfo()
-            {
-                Console.WriteLine($"[Chair] er lavet af {Manufacturer} og koster {Cost}");
-                Console.WriteLine($"Den har {LegCount} ben");
-            }
-        }
-        class Computer : Furniture
-        {
-            public string GPU { get; set; }
-            public override void PrintInfo()
-            {
-                Console.WriteLine($"[Computer] er lavet af {Manufacturer} og koster {Cost}");
-                Console.WriteLine($"Grafikkortet er et {GPU}");
-            }
-        }
         static void Main(string[] args)
         {
-            Chair f = new Chair();
-            f.Manufacturer = "Samsung";
-            f.Cost = 150.45;
-            f.LegCount = 3;
-            f.PrintInfo();
-
-            Computer c = new Computer();
-            c.Manufacturer = "Dell";
-            c.Cost = 6900;
-            c.GPU = "RTX 3090";
-            c.PrintInfo();
+            Trainer t = new Trainer();
+            t.Name = "Ash";
+            Console.WriteLine(t.Name);
+            Plant pok = new Plant();
+            pok.Name = "Grassachu";
+            pok.Level = 69;
+            pok.Attack = 420;
+            pok.PlantAttack = 666;
+            Pokeball balls = new Pokeball(9);
+            balls.Pokemon = pok;
+            t.p1 = balls;
+            t.p1.PrintInfo();
         }
     }
 }
