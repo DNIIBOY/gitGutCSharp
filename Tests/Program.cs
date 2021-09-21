@@ -9,7 +9,7 @@ namespace Tests
             public double Cost { set; get; }
             public string Manufacturer { set; get; }
 
-            public void PrintInfo()
+            public virtual void PrintInfo()
             {
                 Console.WriteLine($"[Furniture] er lavet af {Manufacturer} og koster {Cost}");
             }
@@ -18,7 +18,7 @@ namespace Tests
         class Chair : Furniture
         {
             public int LegCount { get; set; } = 4;
-            public void PrintInfo()
+            public override void PrintInfo()
             {
                 Console.WriteLine($"[Chair] er lavet af {Manufacturer} og koster {Cost}");
                 Console.WriteLine($"Den har {LegCount} ben");
@@ -27,7 +27,7 @@ namespace Tests
         class Computer : Furniture
         {
             public string GPU { get; set; }
-            public void PrintInfo()
+            public override void PrintInfo()
             {
                 Console.WriteLine($"[Computer] er lavet af {Manufacturer} og koster {Cost}");
                 Console.WriteLine($"Grafikkortet er et {GPU}");
