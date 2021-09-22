@@ -31,6 +31,11 @@ namespace Tests
         public Pokeball p2 { get; set; } = new Pokeball(2);
         public Pokeball p3 { get; set; } = new Pokeball(3);
         public Pokeball p4 { get; set; } = new Pokeball(4);
+
+        public Trainer(string name)
+        {
+            this.Name = name;
+        }
     }
 
     class Pokeball
@@ -79,8 +84,7 @@ namespace Tests
     {
         static void Main(string[] args)
         {
-            Trainer t = new Trainer();
-            t.Name = "Ash";
+            Trainer t = new Trainer("Ash");
             Console.WriteLine(t.Name);
             Plant pok = new Plant();
             pok.Name = "Grassachu";
