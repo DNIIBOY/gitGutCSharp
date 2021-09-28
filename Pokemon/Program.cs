@@ -19,40 +19,40 @@ namespace Pokemon
     {
         public int ElectricAttack { get; set; }
 
-        public Electric(string name, int level, int attack)
+        public Electric(string name, int level, int attack, int electricAttack)
             : base(name, level, attack)
         {
-            
+            ElectricAttack = electricAttack;
         }
     }
     class Plant : Element
     {
         public int PlantAttack { get; set; }
         
-        public Plant(string name, int level, int attack)
+        public Plant(string name, int level, int attack, int plantAttack)
             : base(name, level, attack)
         {
-            
+            PlantAttack = plantAttack;
         }
     }
     class Fire : Element
     {
         public int FireAttack { get; set; }
         
-        public Fire(string name, int level, int attack)
+        public Fire(string name, int level, int attack, int fireAttack)
             : base(name, level, attack)
         {
-            
+            FireAttack = fireAttack;
         }
     }
     class Water : Element
     {
         public int WaterAttack { get; set; }
         
-        public Water(string name, int level, int attack)
+        public Water(string name, int level, int attack, int waterAttack)
             : base(name, level, attack)
         {
-            
+            WaterAttack = waterAttack;
         }
     }
     class Trainer
@@ -117,8 +117,7 @@ namespace Pokemon
         {
             Trainer t = new Trainer("Ash");
             Console.WriteLine(t.Name);
-            Plant pok = new Plant("Grassachu", 69, 420);
-            pok.PlantAttack = 666;
+            Plant pok = new Plant("Grassachu", 69, 420, 666);
             Pokeball balls = new Pokeball(9);
             balls.Pokemon = pok;
             t.p1 = balls;

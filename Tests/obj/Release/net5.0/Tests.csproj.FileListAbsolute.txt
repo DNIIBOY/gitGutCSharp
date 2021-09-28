@@ -1,0 +1,16 @@
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\bin\Release\net5.0\Tests.exe
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\bin\Release\net5.0\Tests.deps.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\bin\Release\net5.0\Tests.runtimeconfig.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\bin\Release\net5.0\Tests.runtimeconfig.dev.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\bin\Release\net5.0\Tests.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\bin\Release\net5.0\ref\Tests.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\bin\Release\net5.0\Tests.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\Tests.csproj.AssemblyReference.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\Tests.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\Tests.AssemblyInfo.cs
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\Tests.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\Tests.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\ref\Tests.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\Tests.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Tests\obj\Release\net5.0\Tests.genruntimeconfig.cache
