@@ -1,0 +1,16 @@
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\bin\Debug\net5.0\Pokemon.exe
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\bin\Debug\net5.0\Pokemon.deps.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\bin\Debug\net5.0\Pokemon.runtimeconfig.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\bin\Debug\net5.0\Pokemon.runtimeconfig.dev.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\bin\Debug\net5.0\Pokemon.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\bin\Debug\net5.0\ref\Pokemon.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\bin\Debug\net5.0\Pokemon.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\Pokemon.csproj.AssemblyReference.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\Pokemon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\Pokemon.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\Pokemon.AssemblyInfo.cs
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\Pokemon.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\ref\Pokemon.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\Pokemon.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\Pokemon\obj\Debug\net5.0\Pokemon.genruntimeconfig.cache

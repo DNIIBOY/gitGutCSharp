@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Primtal", "..\Primtal\Primt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kortBroek", "..\kortBroek\kortBroek.csproj", "{019C7732-BCF3-4345-9B58-17C03168E0A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassFun", "..\ConsoleApp1\ClassFun.csproj", "{8BC0EA64-EA07-44A0-A655-4D1538F2B1F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassFun", "..\ConsoleApp1\ClassFun.csproj", "{8BC0EA64-EA07-44A0-A655-4D1538F2B1F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon", "..\Pokemon\Pokemon.csproj", "{F3CA90C6-A0A1-4B4B-A2A5-278A42E2E9E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8BC0EA64-EA07-44A0-A655-4D1538F2B1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC0EA64-EA07-44A0-A655-4D1538F2B1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC0EA64-EA07-44A0-A655-4D1538F2B1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CA90C6-A0A1-4B4B-A2A5-278A42E2E9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CA90C6-A0A1-4B4B-A2A5-278A42E2E9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CA90C6-A0A1-4B4B-A2A5-278A42E2E9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CA90C6-A0A1-4B4B-A2A5-278A42E2E9E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
