@@ -1,0 +1,22 @@
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\bin\Debug\net5.0-windows\WPF tests.exe
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\bin\Debug\net5.0-windows\WPF tests.deps.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\bin\Debug\net5.0-windows\WPF tests.runtimeconfig.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\bin\Debug\net5.0-windows\WPF tests.runtimeconfig.dev.json
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\bin\Debug\net5.0-windows\WPF tests.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\bin\Debug\net5.0-windows\ref\WPF tests.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\bin\Debug\net5.0-windows\WPF tests.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.csproj.AssemblyReference.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests_MarkupCompile.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests_MarkupCompile.lref
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.g.resources
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.AssemblyInfo.cs
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\ref\WPF tests.dll
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.pdb
+C:\Users\danie\Desktop\programmering\gitGudCSharp\WPF tests\obj\Debug\net5.0-windows\WPF tests.genruntimeconfig.cache

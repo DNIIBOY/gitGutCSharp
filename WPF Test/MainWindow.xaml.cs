@@ -184,6 +184,7 @@ namespace WPF_Test
                 eq.AppendNum(0, "+");
             }
             opLbl.Content = "=";
+            takeInput("+");
             mainLbl.Content = eq.equate();
             eq.nums[0] = 0;
             eq.nums[1] = 0;
@@ -192,26 +193,26 @@ namespace WPF_Test
         private void clearBtn_Click(object sender, RoutedEventArgs e)
         {
             mainLbl.Content = "";
+            eq.nums[0] = 0;
+            eq.nums[1] = 0;
         }
 
         public class Equation
         {
-            public int[] nums = new int[2];
-            public string op = "n";
+            public double[] nums = { 0, 0 };
+            public string op = "+";
 
             public bool nextNumIsNew = true;
 
-            public void AppendNum(int num, string newOp)
+            public void AppendNum(double num, string newOp)
             {
-                if (op != "n")
-                {
-                    nums[0] = calc(nums, op);
-                }
-                nextNumIsNew = true;
                 nums[1] = num;
+                nums[0] = calc(nums, op);
+                nums[1] = 0;
+                nextNumIsNew = true;
                 op = newOp;
             }
-            public int equate()
+            public double equate()
             {
                 nums[0] = calc(nums, op);
                 nums[1] = 0;
@@ -219,9 +220,9 @@ namespace WPF_Test
             }
         }
 
-        static int calc(int[] nums, string op)
+        static double calc(double[] nums, string op)
         {
-            int res;
+            double res;
             switch (op)
             {
                 case "+":
@@ -249,7 +250,7 @@ namespace WPF_Test
 
         void takeInput(string new_op)
         {
-            int num = Convert.ToInt32(mainLbl.Content);
+            double num = Convert.ToDouble(mainLbl.Content);
             eq.AppendNum(num, new_op);
             mainLbl.Content = eq.nums[0];
         }
