@@ -15,8 +15,8 @@
                 <TranslateTransform/>
             </TransformGroup>
         </Grid.RenderTransform>
-        <Button Content="Forrige" HorizontalAlignment="Left" Margin="57,172,0,0" VerticalAlignment="Top" Height="38" Width="91"/>
-        <Button Content="Næste" HorizontalAlignment="Left" Margin="192,173,0,0" VerticalAlignment="Top" Height="38" Width="91" Click="Button_Click_next"/>
-        <Label x:Name="MyDate" Content="24-10-2021" HorizontalAlignment="Center" Height="47" Margin="0,93,0,0" VerticalAlignment="Top" Width="134" FontSize="24"/>
+        <Button Content="Forrige" HorizontalAlignment="Left" Margin="57,172,0,0" VerticalAlignment="Top" Height="38" Width="91" Click="Button_Click_Prev"/>
+        <Button Content="Næste" HorizontalAlignment="Left" Margin="192,173,0,0" VerticalAlignment="Top" Height="38" Width="91" Click="Button_Click_Next"/>
+        <Label x:Name="MyDate" Content="24-1-2020" HorizontalAlignment="Center" Height="47" Margin="0,93,0,0" VerticalAlignment="Top" Width="134" FontSize="24"/>
     </Grid>
 </Window>
