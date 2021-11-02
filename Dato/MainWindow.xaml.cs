@@ -20,6 +20,7 @@ namespace Dato
     /// </summary>
     public partial class MainWindow : Window
     {
+        DateTime date = DateTime.Now;
         public MainWindow()
         {
             InitializeComponent();
@@ -27,25 +28,14 @@ namespace Dato
 
         private void Button_Click_Next(object sender, RoutedEventArgs e)
         {
-            MinDato dato = GetDato(MyDate.Content.ToString());
-            dato.Next();
-            MyDate.Content = dato.Dato_String();
+            date = date.AddDays(1);
+            MyDate.Content = date.ToString("dd-MM-yyyy");
         }
         
         private void Button_Click_Prev(object sender, RoutedEventArgs e)
         {
-            MinDato dato = GetDato(MyDate.Content.ToString());
-            dato.Previous();
-            MyDate.Content = dato.Dato_String();
-        }
-
-        private MinDato GetDato(string date)
-        {
-            string[] dateList = date.Split("-");
-            int day = Convert.ToInt32(dateList[0]);
-            int month = Convert.ToInt32(dateList[1]);
-            int year = Convert.ToInt32(dateList[2]);
-            return new MinDato(day, month, year);
+            date = date.AddDays(-1);
+            MyDate.Content = date.ToString("dd-MM-yyyy");
         }
     }
 }
