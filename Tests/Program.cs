@@ -7,21 +7,29 @@ namespace Tests
 {
     class Program
     {
-        static void Main(string[] args){
-            List<int> pos = new List<int>();
-            List<int> neg = new List<int>();
-            for (int i = 0; i < 10; i++){
-                int input = int.Parse(Console.ReadLine());
-                if (input >= 0){
-                    pos.Add(input);
-                }
-                else{
-                    neg.Add(input);
-                }
+        class Person
+        {
+            private string _name;
+            public Person(string name)
+            {
+                _name = name;
             }
+            public string ToString()
+            {
+                return $"Hello! My name is {_name}";
+            }
+        }
 
-            Console.WriteLine($"Avg Positive: {pos.Average()}");
-            Console.WriteLine($"Avg Negative: {neg.Average()}");
+        static void Main(string[] args){
+            Person[] people = new Person[3];
+            for (int i = 0; i<3; i++)
+            {
+                people[i] = new Person(Console.ReadLine());
+            }
+            for (int i = 0; i<3; i++)
+            {
+                Console.WriteLine(people[i].ToString());
+            }
         }
     }
 }
