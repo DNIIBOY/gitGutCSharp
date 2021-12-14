@@ -9,7 +9,7 @@ namespace Tests
     {
         class Person
         {
-            private string _name;
+            protected string _name;
             public Person(string name)
             {
                 _name = name;
@@ -20,16 +20,30 @@ namespace Tests
             }
         }
 
+        class Student : Person
+        {
+            public Student(string name) : base(name){}
+            
+            public void study()
+            {
+                Console.WriteLine($"{_name} is studying");
+            }
+        }
+
+        class Teacher : Person
+        {
+            public Teacher(string name) : base(name){}
+            
+            public void explain()
+            {
+                Console.WriteLine($"{_name} is explaining");
+            }
+        }
         static void Main(string[] args){
             Person[] people = new Person[3];
-            for (int i = 0; i<3; i++)
-            {
-                people[i] = new Person(Console.ReadLine());
-            }
-            for (int i = 0; i<3; i++)
-            {
-                Console.WriteLine(people[i].ToString());
-            }
+            people[0] = new Person("John");
+            people[1] = new Student("Jack");
+            people[2] = new Teacher("Jill");
         }
     }
 }
