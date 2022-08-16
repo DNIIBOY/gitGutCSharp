@@ -1,49 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
+using System.IO;
+using System.Net.Http;
+using System.Net;
 
-namespace Tests
-{
-    class Program
-    {
-        class Person
-        {
-            protected string _name;
-            public Person(string name)
-            {
-                _name = name;
+namespace Tests{
+    class Program{
+        private static readonly HttpClient Client = new HttpClient();
+
+        static int[] GetFactors(string number){
+            var url = $"http://factordb.com/api?query={number}";
+            var request = WebRequest.Create(url);
+            request.Method = "GET";
+
+            using var webResponse = request.GetResponse();
+            using var webStream = webResponse.GetResponseStream();
+
+            using var reader = new StreamReader(webStream);
+            var data = reader.ReadToEnd();
+
+            Console.WriteLine(data);
+            if (data.status != "FF"){
+                return new int[2];
             }
-            public string ToString()
-            {
-                return $"Hello! My name is {_name}";
-            }
+
+            return new int[2];
         }
 
-        class Student : Person
-        {
-            public Student(string name) : base(name){}
-            
-            public void study()
-            {
-                Console.WriteLine($"{_name} is studying");
-            }
-        }
-
-        class Teacher : Person
-        {
-            public Teacher(string name) : base(name){}
-            
-            public void explain()
-            {
-                Console.WriteLine($"{_name} is explaining");
-            }
-        }
         static void Main(string[] args){
-            Person[] people = new Person[3];
-            people[0] = new Person("John");
-            people[1] = new Student("Jack");
-            people[2] = new Teacher("Jill");
+            GetFactors("783340156742833416191");
         }
     }
 }

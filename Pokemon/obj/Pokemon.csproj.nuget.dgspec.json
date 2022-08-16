@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Pokemon\\Pokemon.csproj": {}
+    "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Pokemon\\Pokemon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Pokemon\\Pokemon.csproj": {
+    "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Pokemon\\Pokemon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Pokemon\\Pokemon.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Pokemon\\Pokemon.csproj",
         "projectName": "Pokemon",
-        "projectPath": "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Pokemon\\Pokemon.csproj",
+        "projectPath": "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Pokemon\\Pokemon.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Pokemon\\obj\\",
+        "outputPath": "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Pokemon\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

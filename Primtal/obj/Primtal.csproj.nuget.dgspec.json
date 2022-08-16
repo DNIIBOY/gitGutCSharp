@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Primtal\\Primtal.csproj": {}
+    "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Primtal\\Primtal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Primtal\\Primtal.csproj": {
+    "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Primtal\\Primtal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Primtal\\Primtal.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Primtal\\Primtal.csproj",
         "projectName": "Primtal",
-        "projectPath": "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Primtal\\Primtal.csproj",
+        "projectPath": "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Primtal\\Primtal.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Desktop\\programmering\\gitGudCSharp\\Primtal\\obj\\",
+        "outputPath": "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Primtal\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }
