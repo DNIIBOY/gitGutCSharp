@@ -24,7 +24,7 @@ namespace Tests{
         }
 
         static void Main(string[] args){
-            GetFactors("783340156742833416191");
+            GetFactors("21");
         }
     }
 }
