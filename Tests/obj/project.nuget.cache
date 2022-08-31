@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cA8vYsJ3E58ERPibhsg3AEKwLIwSPn15ahNE2BFq/R+iIpfon/fWHOtGjLAjIwKW0sbc7aucXpEEefBJWLM88Q==",
+  "dgSpecHash": "QWkFuaQXLfSaqTNCGky9MuvsgIqfHmdBfpOelHbRcQQGDir/uiYMRUFDbatyCirthL1UetgCoUfqE9md4NVkcg==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\Desktop\\programmering\\gitGutCSharp\\Tests\\Tests.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

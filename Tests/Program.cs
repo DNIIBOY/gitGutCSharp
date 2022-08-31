@@ -2,12 +2,14 @@
 using System.IO;
 using System.Net.Http;
 using System.Net;
+using System.Text;
+using RestSharp;
 
 namespace Tests{
     class Program{
         private static readonly HttpClient Client = new HttpClient();
 
-        static int[] GetFactors(string number){
+        static void GetFactors(string number){
             var url = $"http://factordb.com/api?query={number}";
             var request = WebRequest.Create(url);
             request.Method = "GET";
@@ -17,13 +19,8 @@ namespace Tests{
 
             using var reader = new StreamReader(webStream);
             var data = reader.ReadToEnd();
-
             Console.WriteLine(data);
-            if (data.status != "FF"){
-                return new int[2];
-            }
 
-            return new int[2];
         }
 
         static void Main(string[] args){

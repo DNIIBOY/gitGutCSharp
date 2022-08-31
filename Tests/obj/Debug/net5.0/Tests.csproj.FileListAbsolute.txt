@@ -46,3 +46,5 @@ C:\Users\danie\Desktop\programmering\gitGutCSharp\Tests\obj\Debug\net5.0\Tests.d
 C:\Users\danie\Desktop\programmering\gitGutCSharp\Tests\obj\Debug\net5.0\ref\Tests.dll
 C:\Users\danie\Desktop\programmering\gitGutCSharp\Tests\obj\Debug\net5.0\Tests.pdb
 C:\Users\danie\Desktop\programmering\gitGutCSharp\Tests\obj\Debug\net5.0\Tests.genruntimeconfig.cache
+C:\Users\danie\Desktop\programmering\gitGutCSharp\Tests\bin\Debug\net5.0\RestSharp.dll
+C:\Users\danie\Desktop\programmering\gitGutCSharp\Tests\obj\Debug\net5.0\Tests.csproj.CopyComplete
